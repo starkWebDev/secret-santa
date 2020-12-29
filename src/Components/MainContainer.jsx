@@ -24,8 +24,8 @@ export const MainContainer = () => {
       {context => (
         <Container
           style={{
-            width: "500px",
-            height: "600px",
+            maxWidth: "500px",
+            maxHeight: "600px",
             margin: "auto",
             marginTop: "150px",
           }}
