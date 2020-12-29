@@ -30,7 +30,7 @@ export const MainContainer = () => {
             marginTop: "150px",
           }}
         >
-          <Paper style={{ width: "500px", height: "600px", padding: "16px" }}>
+          <Paper style={{ maxWidth: "500px", maxHeight: "600px", padding: "16px" }}>
             {/* {!context.state.hasGenerated && (
               <FormControlLabel
                 control={
